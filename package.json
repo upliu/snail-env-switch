@@ -1,0 +1,19 @@
+{
+	"name": "snail-env-switch",
+	"version": "0.1.0",
+	"description": "Just a proxy tool for switching ip in different environments.",
+	"main": "index.js",
+	"dependencies": {
+		"http-proxy": "^1.11.2"
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/upliu/snail-env-switch.git"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC"
+}
