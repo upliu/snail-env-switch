@@ -13,6 +13,13 @@ env.saveConfig = function(config)
     });
 };
 
+env.reloadConfig = function()
+{
+    var json = fs.readFileSync('./config.json');
+    _config = JSON.parse(json);
+    _matched = {};
+};
+
 env.getConfig = function(){
     return _config;
 };
